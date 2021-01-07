@@ -1,0 +1,27 @@
+﻿Build started...
+1>------ Build started: Project: PersonalAgenda, Configuration: Debug Any CPU ------
+1>C:\Microsoft\Xamarin\NuGet\xamarin.forms\4.8.0.1451\buildTransitive\Xamarin.Forms.targets(232,5): warning : Xamarin.Forms recommends TargetPlatformMinVersion >= 10.0.14393.0 (current project is -1)
+1>C:\Microsoft\Xamarin\NuGet\xamarin.forms\4.8.0.1451\buildTransitive\Xamarin.Forms.targets(238,5): warning : Xamarin.Forms recommends TargetPlatformVersion >= 10.0.17763.0 (current project is -1)
+1>PersonalAgenda -> C:\Users\flo\source\repos\PersonalAgenda\PersonalAgenda\bin\Debug\netstandard2.0\PersonalAgenda.dll
+1>Done building project "PersonalAgenda.csproj".
+2>------ Build started: Project: PersonalAgenda.Android, Configuration: Debug Any CPU ------
+Pair to Mac is not connected, so the build will be performed offline. To do a full build please connect and try again.
+3>------ Build started: Project: PersonalAgenda.iOS, Configuration: Debug iPhone ------
+3>  Executing SayHello Task to establish a connection to a Mac Server. 
+3>  						 Properties: 
+3>  							SessionId=2fdc448e191ac1fc13e060b231aae0bd123c4b662e57f52e21ecd829ec71d9c1, 
+3>  							ServerPort=, 
+3>  							ServerAddress=, 
+3>  							ServerUser=, 
+3>  							ServerPassword=, 
+3>  							SSHKey=, 
+3>  							SSHPassPhrase=,
+3>  							AppName=PersonalAgenda.iOS,
+3>  							VisualStudioProcessId=12068,
+3>  							ContinueOnDisconnected=True
+3>C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Xamarin\iOS\Xamarin.Messaging.targets(83,3): warning VSX1000: Not enough information has been provided to MSBuild in order to establish a connection to a Remote Server. The project 'PersonalAgenda.iOS' will continue building offline
+2>  PersonalAgenda.Android -> C:\Users\flo\source\repos\PersonalAgenda\PersonalAgenda.Android\bin\Debug\PersonalAgenda.Android.dll
+3>C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Xamarin\iOS\Xamarin.Messaging.targets(83,3): warning VSX1000: The connection to the Mac Server with Address='' and User='' couldn't be established. The project 'PersonalAgenda.iOS' will continue building offline
+3>C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Current\Bin\Microsoft.Common.CurrentVersion.targets(2123,5): warning MSB3277: Found conflicts between different versions of "System.Numerics.Vectors" that could not be resolved.  These reference conflicts are listed in the build log when log verbosity is set to detailed.
+3>  PersonalAgenda.iOS -> C:\Users\flo\source\repos\PersonalAgenda\PersonalAgenda.iOS\bin\iPhone\Debug\PersonalAgenda.iOS.exe
+========== Build: 3 succeeded, 0 failed, 0 up-to-date, 0 skipped ==========
